@@ -92,3 +92,5 @@ class ControllerAvaliacao {
   res.json({ op });
 }
 }
+
+module.exports = ControllerAvaliacao;
