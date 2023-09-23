@@ -1,3 +1,5 @@
+const ServicesAvaliacao = require("../services/avaliacao");
+//
 const servico = new ServicesAvaliacao();
 
 class ControllerAvaliacao {

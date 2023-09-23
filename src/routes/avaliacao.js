@@ -5,13 +5,13 @@ const controller = new ControllerAvaliacao();
 
 const router = express.Router();
 
-route.post("/api/soma", controller.Somar);
-route.post("/api/subtracao", controller.Subtrair);
-route.post("/api/multiplicacao", controller.Multiplicar);
-route.post("/api/divisao", controller.Dividir);
-route.post("/api/potencia", controller.Potencia);
-route.post("/api/raiz", controller.Raiz);
+router.post("/api/soma", controller.Somar);
+router.post("/api/subtracao", controller.Subtrair);
+router.post("/api/multiplicacao", controller.Multiplicar);
+router.post("/api/divisao", controller.Dividir);
+router.post("/api/potencia", controller.Potencia);
+router.post("/api/raiz", controller.Raiz);
 
-route.get("/api/operacoes", controller.OpDisponiveis);
+router.get("/api/operacoes", controller.OpDisponiveis);
 
 module.exports = router;
